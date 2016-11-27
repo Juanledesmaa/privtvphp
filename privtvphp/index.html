@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title> Priv TV</title>
+<link rel="stylesheet" type="text/css" href="css/style.css">
+
+</head>
+<body>
+      <div id="intro">
+          <div class="col-md-12">
+            <img src="images/icon-1.png" width="130" height="130">
+            <h1> Priv.TV</h1>
+          </div>
+      </div>
+
+
+      <div id="login" class="col-sm-push-4 col-sm-4 well">
+        <div class="form">
+          <form action="ingresar.php" method="POST">
+         
+          <div class="field-wrap">
+              <label>Correo Electronico</label>
+              <input type="text" name="usuario" required autocomplete="off" />
+            </div>
+       
+        <div class="field-wrap">
+              <label>Contraseña</label>
+              <input type="password" name="contraseña" required autocomplete="off" />
+            </div>
+            <input type="submit" value="INICIAR SESION" name="entrar" class="btn btn-success pull-left"></button>
+            <a class="btn btn-danger pull-right" href="registrarse.html">Registrarse</a>
+            </form>
+        </div>
+      </div>
+
+      <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+</body>
+</html>
